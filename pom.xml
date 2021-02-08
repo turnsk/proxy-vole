@@ -2,7 +2,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>de.rosstauscher.proxy_vole</groupId>
   <artifactId>proxy_vole</artifactId>
-  <version>1.0.1-SNAPSHOT</version>
+  <version>1.0.2-SNAPSHOT</version>
   <name>proxy-vole</name>
   <description>A Java library to auto detect the platform network proxy settings. 
 
@@ -60,6 +60,7 @@ The library provides some proxy setting search strategies to read the proxy sett
   		<groupId>junit</groupId>
   		<artifactId>junit</artifactId>
   		<version>4.11</version>
+  		<scope>test</scope>
   	</dependency>
   </dependencies>
 </project>
